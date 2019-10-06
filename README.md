@@ -201,16 +201,19 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
 -->
 ## Powered by JavaCC
 
-JavaCC is used by applications in many companies and enterprises around the globe. In the following list, we present a few notable JavaCC users that run interesting use cases in production and link to resources that discuss their applications in more detail.
+JavaCC is used by applications in many companies and open source projects around the globe. In the following list, we present a few notable JavaCC users that run interesting use cases in production and link to resources that discuss their applications in more detail.
 
-* [Apache Avro](https://avro.apache.org/) a data serialization framework.
-* [Apache ActiveMQ](https://activemq.apache.org/) a multi-protocol, Java-based messaging server.
-* [Apache Camel](https://camel.apache.org/) an open source integration framework.
-* [Apache Zookeeper](https://zookeeper.apache.org/) a centralized service for maintaining configuration information, naming and providing distributed synchronization.
-* ... others
+| User                                                 | Use Case                                                       | Grammar File(s)                                                                                                                                          |
+| :--------------------------------------------------- |:-------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| [Apache Avro](https://avro.apache.org/)              | Parsing higher-level languages into Avro Schema                | [idl.jj](https://github.com/apache/avro/blob/master/lang/java/compiler/src/main/javacc/org/apache/avro/compiler/idl/idl.jj)                              |
+| [Apache ActiveMQ](https://activemq.apache.org/)      | Parsing JMS selector statements                                | [SelectorParser.jj](https://github.com/apache/activemq/blob/master/activemq-client/src/main/grammar/SelectorParser.jj)                                   |
+| [Apache Calcite](https://calcite.apache.org/)        | Parsing SQL statements                                         | [Parser.jj](https://github.com/apache/calcite/blob/master/core/src/main/codegen/templates/Parser.jj)                                                     |
+| [Apache Camel](https://camel.apache.org/)            | Parsing stored SQL templates                                   | [sspt.jj](https://github.com/apache/camel/blob/master/components/camel-sql/src/main/java/org/apache/camel/component/sql/stored/template/grammar/sspt.jj) |
+| [Apache Zookeeper](https://zookeeper.apache.org/)    | Optimising serialisation/deserialisation of Hadoop I/O records | [rcc.jj](https://github.com/apache/zookeeper/blob/master/zookeeper-jute/src/main/java/org/apache/jute/compiler/generated/rcc.jj)                         |
 
 
 ## About
 
 JavaCC was originally created at Sun Microsystems Inc. by [Sreeni Viswanadha](https://github.com/kaikalur) and [Sriram Sankar](https://twitter.com/sankarsearch).
-As an open source project, it is now maintained by the developer community, which includes the original authors and [Chris Ainsley](https://github.com/ainslec), [Tim Pizney](https://github.com/timp) and [Francis Andre](https://github.com/zosrothko).
+
+As an open source project, it is now maintained by the developer community which includes the original authors and [Chris Ainsley](https://github.com/ainslec), [Tim Pizney](https://github.com/timp) and [Francis Andre](https://github.com/zosrothko).
