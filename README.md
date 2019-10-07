@@ -203,17 +203,16 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
 
 JavaCC is used by applications in many companies and open source projects around the globe. In the following list, we present a few notable JavaCC users that run interesting use cases in production and link to resources that discuss their applications in more detail.
 
-| User                                                 | Use Case                                                       | Grammar File(s)                                                                                                                                          |
-| :--------------------------------------------------- |:-------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [Apache ActiveMQ](https://activemq.apache.org/)      | Parsing JMS selector statements                                | [SelectorParser.jj](https://github.com/apache/activemq/blob/master/activemq-client/src/main/grammar/SelectorParser.jj)                                   |
-| [Apache Avro](https://avro.apache.org/)              | Parsing higher-level languages into Avro Schema                | [idl.jj](https://github.com/apache/avro/blob/master/lang/java/compiler/src/main/javacc/org/apache/avro/compiler/idl/idl.jj)                              |
-| [Apache Calcite](https://calcite.apache.org/)        | Parsing SQL statements                                         | [Parser.jj](https://github.com/apache/calcite/blob/master/core/src/main/codegen/templates/Parser.jj)                                                     |
-| [Apache Camel](https://camel.apache.org/)            | Parsing stored SQL templates                                   | [sspt.jj](https://github.com/apache/camel/blob/master/components/camel-sql/src/main/java/org/apache/camel/component/sql/stored/template/grammar/sspt.jj) |
-| [Apache Lucene](https://lucene.apache.org/)          | Parsing search queries                                         | [QueryParser.jj](https://github.com/apache/lucene-solr/tree/master/lucene/queryparser/src/java/org/apache/lucene/queryparser/classic)                    |
-| [Apache Zookeeper](https://zookeeper.apache.org/)    | Optimising serialisation/deserialisation of Hadoop I/O records | [rcc.jj](https://github.com/apache/zookeeper/blob/master/zookeeper-jute/src/main/java/org/apache/jute/compiler/generated/rcc.jj)                         |
-| [Java Parser](https://javaparser.org/)               | Parsing Java language files                                    | [java.jj](https://github.com/javaparser/javaparser/blob/master/javaparser-core/src/main/javacc/java.jj)                                                  |
-
-
+User                                                 | Use Case                                                       | Grammar File(s)
+:--------------------------------------------------- |:-------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------:
+[Apache ActiveMQ](https://activemq.apache.org/)      | Parsing JMS selector statements                                | [SelectorParser.jj](https://github.com/apache/activemq/blob/master/activemq-client/src/main/grammar/SelectorParser.jj)
+[Apache Avro](https://avro.apache.org/)              | Parsing higher-level languages into Avro Schema                | [idl.jj](https://github.com/apache/avro/blob/master/lang/java/compiler/src/main/javacc/org/apache/avro/compiler/idl/idl.jj)
+[Apache Calcite](https://calcite.apache.org/)        | Parsing SQL statements                                         | [Parser.jj](https://github.com/apache/calcite/blob/master/core/src/main/codegen/templates/Parser.jj)
+[Apache Camel](https://camel.apache.org/)            | Parsing stored SQL templates                                   | [sspt.jj](https://github.com/apache/camel/blob/master/components/camel-sql/src/main/java/org/apache/camel/component/sql/stored/template/grammar/sspt.jj)
+[Apache Lucene](https://lucene.apache.org/)          | Parsing search queries                                         | [QueryParser.jj](https://github.com/apache/lucene-solr/tree/master/lucene/queryparser/src/java/org/apache/lucene/queryparser/classic)
+[Apache Tomcat](https://tomcat.apache.org/)          | Parsing Expression Language (EL) and JSON                      | [ELParser.jjt](https://github.com/apache/lucene-solr/tree/master/lucene/queryparser/src/java/org/apache/lucene/queryparser/classic)
+[Apache Zookeeper](https://zookeeper.apache.org/)    | Optimising serialisation/deserialisation of Hadoop I/O records | [rcc.jj](https://github.com/apache/tomcat/blob/master/java/org/apache/el/parser/ELParser.jjt), [JSONParser.jj](https://github.com/apache/tomcat/blob/master/java/org/apache/tomcat/util/json/JSONParser.jj)
+[Java Parser](https://javaparser.org/)               | Parsing Java language files                                    | [java.jj](https://github.com/javaparser/javaparser/blob/master/javaparser-core/src/main/javacc/java.jj)
 
 
 ## About
