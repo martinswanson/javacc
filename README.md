@@ -297,5 +297,6 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
 
 JavaCC is an open source project release under the BSD License 2.0. The JavaCC project was originally developed at Sun Microsystems Inc. by [Sreeni Viswanadha](https://github.com/kaikalur) and [Sriram Sankar](https://twitter.com/sankarsearch).
 
--------------------------------------------------------------------------------------------------------------------------------------------------------:
+***
+
 Back to [ToC](#toc)
