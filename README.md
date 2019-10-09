@@ -250,9 +250,9 @@ dependencies {
 
 ## <a name="community"></a>Community
 
-JavaCC is by far the most popular parser generator used with Java applications, having an estimated user base of over 1,000 users and more than 100,000 downloads to date.
+JavaCC is by far the most popular parser generator used with Java applications with an estimated user base of over 1,000 users and more than 100,000 downloads to date.
 
-It is maintained by the developer community which includes the original authors and [Chris Ainsley](https://github.com/ainslec), [Tim Pizney](https://github.com/timp) and [Francis Andre](https://github.com/zosrothko).
+It is maintained by the developer [community](https://github.com/javacc/javacc/graphs/contributors) which includes the original authors and [Chris Ainsley](https://github.com/ainslec), [Tim Pizney](https://github.com/timp) and [Francis Andre](https://github.com/zosrothko).
 
 ### <a name="support"></a>Support
 
@@ -296,6 +296,7 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
 ## <a name="license"></a>License
 
 JavaCC is an open source project release under the BSD License 2.0. The JavaCC project was originally developed at Sun Microsystems Inc. by [Sreeni Viswanadha](https://github.com/kaikalur) and [Sriram Sankar](https://twitter.com/sankarsearch).
+
 
 ***
 
