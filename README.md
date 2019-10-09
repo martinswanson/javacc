@@ -21,12 +21,12 @@ see [https://javacc.org/](https://javacc.org/).
    * [Building JavaCC from source](#building-from-source)
    * [Developing JavaCC](#developing)
    * [Download](#download)
-   * [Binary distribution](#distribution)
+   * [Binary distribution](#binary-distribution)
 - [Community](#community)
    * [Support](#support)
    * [Documentation](#documentation)
    * [Powered by JavaCC](#powered-by)
-- [Contributing](#contributing)
+<!--- - [Contributing](#contributing) -->
 - [License](#license)
 
 ## <a name="overview"></a>Overview
@@ -277,9 +277,9 @@ User                                                 | Use Case                 
 [Apache Calcite](https://calcite.apache.org/)        | Parsing SQL statements                                         | [Parser.jj](https://github.com/apache/calcite/blob/master/core/src/main/codegen/templates/Parser.jj)
 [Apache Camel](https://camel.apache.org/)            | Parsing stored SQL templates                                   | [sspt.jj](https://github.com/apache/camel/blob/master/components/camel-sql/src/main/java/org/apache/camel/component/sql/stored/template/grammar/sspt.jj)
 [Apache Jena](https://jena.apache.org/)              | Parsing queries written in SPARQL, ARQ, SSE, Turtle and JSON   | [sparql_10](https://github.com/apache/jena/blob/master/jena-arq/Grammar/Final/sparql_10-final.jj), [sparql_11](https://github.com/apache/jena/blob/master/jena-arq/Grammar/Final/sparql_11-final.jj), [arq.jj](https://github.com/apache/jena/blob/master/jena-arq/Grammar/arq.jj), [sse.jj](https://github.com/apache/jena/blob/master/jena-arq/Grammar/sse/sse.jj), [turtle.jj](https://github.com/apache/jena/blob/master/jena-arq/Grammar/turtle.jj), [json.jj](https://github.com/apache/jena/blob/master/jena-arq/Grammar/JSON/json.jj)
-[Apache Lucene](https://lucene.apache.org/)          | Parsing search queries                                         | [QueryParser.jj](https://github.com/apache/lucene-solr/tree/master/lucene/queryparser/src/java/org/apache/lucene/queryparser/classic)
-[Apache Tomcat](https://tomcat.apache.org/)          | Parsing Expression Language (EL) and JSON                      | [ELParser.jjt](https://github.com/apache/lucene-solr/tree/master/lucene/queryparser/src/java/org/apache/lucene/queryparser/classic)
-[Apache Zookeeper](https://zookeeper.apache.org/)    | Optimising serialisation/deserialisation of Hadoop I/O records | [rcc.jj](https://github.com/apache/tomcat/blob/master/java/org/apache/el/parser/ELParser.jjt), [JSONParser.jj](https://github.com/apache/tomcat/blob/master/java/org/apache/tomcat/util/json/JSONParser.jj)
+[Apache Lucene](https://lucene.apache.org/)          | Parsing search queries                                         | [QueryParser.jj](https://github.com/apache/lucene-solr/blob/master/lucene/queryparser/src/java/org/apache/lucene/queryparser/classic/QueryParser.jj)
+[Apache Tomcat](https://tomcat.apache.org/)          | Parsing Expression Language (EL) and JSON                      | [ELParser.jjt](https://github.com/apache/tomcat/blob/master/java/org/apache/el/parser/ELParser.jjt), [JSONParser.jj](https://github.com/apache/tomcat/blob/master/java/org/apache/tomcat/util/json/JSONParser.jj)
+[Apache Zookeeper](https://zookeeper.apache.org/)    | Optimising serialisation/deserialisation of Hadoop I/O records | [rcc.jj](https://github.com/apache/zookeeper/blob/master/zookeeper-jute/src/main/java/org/apache/jute/compiler/generated/rcc.jj)
 [Java Parser](https://javaparser.org/)               | Parsing Java language files                                    | [java.jj](https://github.com/javaparser/javaparser/blob/master/javaparser-core/src/main/javacc/java.jj)
 
 <!---
@@ -297,4 +297,5 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
 
 JavaCC is an open source project release under the BSD License 2.0. The JavaCC project was originally developed at Sun Microsystems Inc. by [Sreeni Viswanadha](https://github.com/kaikalur) and [Sriram Sankar](https://twitter.com/sankarsearch).
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------:
 Back to [ToC](#toc)
